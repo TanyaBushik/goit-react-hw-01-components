@@ -1,0 +1,39 @@
+.statusOnline {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: green;
+  text-align: center;
+  /* align-items: center;
+  grid-row: 1 / 2;
+  justify-self: end; */
+}
+
+.statusOffline {
+  composes: statusOnline;
+  background-color: red;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: auto 56px 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  align-items: center;
+  justify-content: start;
+  padding: 10px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+
+.avatar {
+  border-radius: 20%;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}

@@ -3,7 +3,7 @@
   height: auto;
   border-radius: 10px;
   margin-top: 50px;
-  background-color: beige;
+  background-color: rgb(252, 252, 250);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -12,7 +12,7 @@
 }
 
 .description {
-  margin-top: 15px;
+  padding-top: 10px;
   margin-bottom: 15px;
   text-align: center;
 }
@@ -20,15 +20,22 @@
   width: 150px;
   border-radius: 50%;
   background-color: #b1adad;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto;
 }
 .name {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
-
+.tag {
+  color: darkgray;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.location {
+  color: darkgray;
+  margin-bottom: 10px;
+}
 .stats {
   display: flex;
   text-decoration: none;
@@ -39,9 +46,11 @@
 
 .label {
   text-align: center;
+  color: darkgray;
 }
 .quantity {
   text-align: center;
+  font-weight: 700;
 }
 
 .li {
